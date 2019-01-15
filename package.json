@@ -1,0 +1,34 @@
+{
+  "name": "node-css-by-js",
+  "version": "0.0.1",
+  "description": "Turn your CSS into JS that turns it into CSS.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write \"./**/*.{md,js}\"",
+    "precommit": "pretty-quick --staged",
+    "serve": "node server.js"
+  },
+  "keywords": [
+    "css",
+    "css-in-js",
+    "front-end",
+    "stylesheets",
+    "styles"
+  ],
+  "author": "Alex MacArthur <alex@macarthur.me> (https://macarthur.me)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "postcss": "^7.0.17"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "husky": "^2.4.1",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1"
+  },
+  "bin": {
+    "css-by-js": "./src/index.js"
+  }
+}

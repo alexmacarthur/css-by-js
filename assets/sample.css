@@ -1,0 +1,37 @@
+:root {
+  --my-color: #1a1a1a;
+}
+
+body,
+html {
+  font-family: "Source Sans Pro", sans-serif;
+  background: linear-gradient(45deg, #f5d9ff, #fefdff);
+  color: var(--my-color);
+}
+
+main {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h3 {
+  font-size: 75px;
+}
+
+h3:after {
+  content: "";
+  display: block;
+  background: var(--my-color);
+  height: 5px;
+  width: 100%;
+}
