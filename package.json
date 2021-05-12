@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^2.20.0",
-    "postcss": "^7.0.17"
+    "postcss": "^8.2.10"
   },
   "devDependencies": {
     "express": "^4.17.1",
